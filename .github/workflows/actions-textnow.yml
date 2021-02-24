@@ -58,4 +58,4 @@ jobs:
         TEXTNOW_NUMBER: ${{ secrets.TEXTNOW_NUMBER }}
         TEXTNOW_MSG: ${{ secrets.TEXTNOW_MSG }}
       run: |
-        python scripts/_textnow.py
+        python scripts/_textnow.py 
